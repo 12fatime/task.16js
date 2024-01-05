@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin:  auto;
+    padding: 0px 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 6px 12px;
+    color: black;
+}
+.two h1{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-weight:700 ;
+}
+.two p{
+    color: gray;
+    margin-left: 20px;
+}
+.two button{
+    width: 120px;
+    height: 40px;
+    background-color: #ff3368;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ff3368;
+}
+.third{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+}
+.four .setir{
+    display: flex;
+}
+
+ .five{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+.five .setir{
+    display: flex;
+}
+.six{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 30px;
+    
+}
+.six h3{
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.six p{
+    color: gray;
+    font-weight: bold;
+    line-height: 65px;
+}
+.seven{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.seven h3{
+    color: black;
+    font-weight: bold;
+}
+.eight{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.eight h3{
+    color: black;
+    font-weight: bold;
+}
+.nine{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(197, 217, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.nine img{
+    width: 450px;
+    height: 400px;
+}
+.nine h1{
+    color: black;
+    font-weight: bold;
+}
+.nine h6{
+    color: gray;
+    font-weight: bold;
+}
+.nine p{
+    color: black;
+    font-weight: bold;
+}
+.nine .list{
+    flex-direction: column;
+}
+.list .orta{
+    display: flex;
+    gap: 20px;
+}
+.list .ashagi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 150px;
+}
+.book{
+    width: 100px;
+    height: 25px;
+    background-color: #ff3368;
+    color: white;
+    cursor: pointer;
+}
+.ten{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 30px;
+    
+}
+.ten h3{
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.ten p{
+    color: gray;
+    font-weight: bold;
+    line-height: 65px;
+}
+.eleven{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.eleven h3{
+    color: black;
+    font-weight: bold;
+}
+.oniki{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://preview.colorlib.com/theme/aranoz/img/subscribe_area.png.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.oniki .ashagi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oniki p{
+    color: blueviolet;
+}
+.oniki h1{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.onuch{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-around;
+}
+.ondord{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ondord h4{
+    font-weight: bold;
+}
+ul li{
+    color: gray;
+}
+.ondord .ashagi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ondord .input{
+    width: 150px;
+}
+.book{
+    width: 50px;
+    height: 25px;
+    background-color: #ff3368;
+    color: white;
+    cursor: pointer;
+}
